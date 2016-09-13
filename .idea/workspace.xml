@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c825a6-6e0f-4a68-9095-726575d17a53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/api/tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/task.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/task.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/startup/accounts-config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/packages" afterPath="$PROJECT_DIR$/app/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/versions" afterPath="$PROJECT_DIR$/app/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/main.js" afterPath="$PROJECT_DIR$/app/client/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/body.html" afterPath="$PROJECT_DIR$/app/imports/ui/body.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/body.js" afterPath="$PROJECT_DIR$/app/imports/ui/body.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/main.js" afterPath="$PROJECT_DIR$/app/server/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/task.html" afterPath="$PROJECT_DIR$/app/imports/ui/task.html" />
     </list>
     <ignored path="simple-todos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,23 +40,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="body.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/imports/ui/body.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="accounts-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/imports/startup/accounts-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="body.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/imports/ui/body.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,9 +129,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,14 +155,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/client/main.html" />
-        <option value="$PROJECT_DIR$/app/client/main.js" />
         <option value="$PROJECT_DIR$/app/client/main.css" />
         <option value="$PROJECT_DIR$/app/imports/api/tasks.js" />
         <option value="$PROJECT_DIR$/app/server/main.js" />
         <option value="$PROJECT_DIR$/app/imports/ui/tasks.html" />
-        <option value="$PROJECT_DIR$/app/imports/ui/body.html" />
         <option value="$PROJECT_DIR$/app/imports/ui/task.js" />
+        <option value="$PROJECT_DIR$/app/imports/startup/accounts-config.js" />
+        <option value="$PROJECT_DIR$/app/client/main.js" />
         <option value="$PROJECT_DIR$/app/imports/ui/body.js" />
+        <option value="$PROJECT_DIR$/app/imports/ui/task.html" />
+        <option value="$PROJECT_DIR$/app/imports/ui/body.html" />
       </list>
     </option>
   </component>
@@ -162,8 +175,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="640" />
-    <option name="y" value="135" />
+    <option name="x" value="462" />
+    <option name="y" value="33" />
     <option name="width" value="1256" />
     <option name="height" value="737" />
   </component>
@@ -262,6 +275,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-todos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-todos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,7 +457,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="640" y="135" width="1256" height="737" extended-state="0" />
+    <frame x="462" y="33" width="1256" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -460,22 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -500,11 +519,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/ui/body.html">
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#40#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,23 +549,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/ui/task.js">
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#40#85#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/ui/body.js">
+    <entry file="file://$PROJECT_DIR$/app/imports/startup/accounts-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
